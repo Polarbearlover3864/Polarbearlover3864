@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<h1 class="typing-text"></h1>
+<div class="spinner"></div>
+<html lang="en">
+  <Html>
+    <head>
+        <h1 class="logo">
+  CodingKin<span class="crown-wrapper">g<span class="crown">👑</span></span>
+</h1>
+    <meta charset="UTF-8" />
+    <meta name="welcome" content="width=device-width, initial-scale=1" />
+    <title>Welcome</title>
+    <style>
+    
+
+<div class="slide-in">Content to animate</div>      
+      
+<header>
+  <form class="search-form" action="#" method="GET">
+    <input type="text" name="search" placeholder="Search..." aria-label="Search">
+    <button type="submit">🔍</button>
+  </form>
+</header>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #2c6f4f;
+        }
+        p {
+            max-width: 600px;
+            margin: 0 auto 20px auto;
+            font-size: 1.1em;
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 0.9em;
+            color: #666;
+        }
+        a {
+            color: #2c6f4f;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .typing-text {
+  font-family: monospace, monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid white;
+  font-weight: bold;
+  font-size: 2rem;
+  width: auto;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  50% { border-color: transparent; }
+  100% { border-color: white; }
+}
+
+}
+
+body {
+  opacity: 0;.typing-text {
+  font-family: monospace, monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid white;
+  font-weight: bold;
+  font-size: 2rem;
+  width: auto;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  50% { border-color: transparent; }
+  100% { border-color: white; }
+}
+  animation: fadeIn 1.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.search-bar {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 20px;
+  width: 250px;
+}
+
+.search-bar button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  margin-left: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+
+
+
+
+}
+
+#ad-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+  display: block;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+#ad-banner img {
+  display: block;
+  width: 30px;  
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+#ad-banner img {
+  display: block;
+  max-width: 100px;
+  height: auto;
+}
+
+#ad-banner-text {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0073e6;
+  color: white;
+  padding: 20px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 0 0 8px 0;
+  text-decoration: none;
+  z-index: 100;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+#ad-banner-text:hover {
+  background-color: #005bb5;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+}
+
+.crown-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.logo {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  color: #222;
+}
+
+.crown-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.crown {
+  position: absolute;
+  top: -40px; /* Moves crown above the letter */
+  left: 50%;  /* Centers it horizontally */
+  transform: translateX(-50%);
+   pointer-events: none; /* So it doesn't block clicks */
+  user-select: none; /* Prevent text selection */
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.ad {
+  width: 300px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.ad img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.ad a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #007a33; /* Ecosia green */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.ad a:hover {
+  background-color: #005a22;
+}
+
+#ad-container {
+  position: fixed;
+  top: 20px;
+  right: 0;
+  width: 320px;
+  height: 80px;
+  background-color: #7ec8e3; /* lightish blue */
+  color: white;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 8px 0 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+  z-index: 9999;
+}
+
+/* Link styles inside the ad */
+#ad-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Arrow inside the ad */
+#ad-arrow {
+  font-size: 1.6rem;
+  transition: transform 0.3s ease;
+}
+
+/* Closed state: slide ad out to the right except a small tab */
+#ad-container.closed {
+  transform: translateX(calc(100% - 40px));
+  width: 320px;
+  justify-content: flex-start;
+  padding-left: 10px;
+  border-radius: 8px 0 0 8px;
+  cursor: pointer;
+}
+
+/* Hide the main link text when closed, show only arrow */
+#ad-container.closed #ad-text {
+  display: none;
+}
+
+/* Rotate arrow when closed */
+#ad-container.closed #ad-arrow {
+  transform: rotate(180deg);
+}
+
+/* Closed indicator tab */
+.closed-indicator {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 80px;
+  background-color: #7ec8e3;
+  border-radius: 8px 0 0 8px;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-size: 1rem;
+  user-select: none;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+/* Hide closed indicator when ad is open */
+#ad-container:not(.closed) .closed-indicator {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Show closed indicator when closed */
+#ad-container.closed .closed-indicator {
+  opacity: 1;
+}
+
+/* Hover: slide ad fully in */
+#ad-container:hover {
+  transform: translateX(0);
+  cursor: pointer;
+}
+
+/* On hover, show full text */
+#ad-container:hover #ad-text {
+  display: inline;
+}
+
+/* On hover, rotate arrow back */
+#ad-container:hover #ad-arrow {
+  transform: rotate(0deg);
+}
+
+button, .btn {
+  background-color: #7ec8e3; /* light blue */
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #5aa7c7;
+  transform: scale(1.05);
+}
+
+.slide-in {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.slide-in.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.cta-button {
+  background-color: #7ec8e3;
+  color: white;
+  font-weight: bold;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  animation: pulse 2.5s infinite;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #5aa7c7;
+  animation-play-state: paused;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(126, 200, 227, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 15px 8px rgba(126, 200, 227, 0);
+  }
+}
+
+
+
+.zoom-image {
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+.zoom-image:hover {
+  transform: scale(1.1);
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #7ec8e3;
+  border-top: 4px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite, hideSpinner 2s forwards;
+  margin: auto;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hideSpinner {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Codingking</h1>
+        <p>Celebrating my codes that you can copy yourself!</p>
+    </header>
+
+    <main>
+        <section>
+           
+            <p>
+Welcome to my website where you can look at all my codes and copy them                for yourself!
+            </p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>Email: <a href="goto:https://www.airbnb.co.uk/rooms/1281182138043509097?_set_bev_on_new_domain=1768125273_EAN2YwNTViMDBmZj&set_everest_cookie_on_new_domain=1768125273.EAMTE3YmY4ZDY3NTE2Mm.QHVvZbKS3M2aSK17jULvwAelQ9DXPdVWJezMKBHSin4&source_impression_id=p3_1768223517_P3S7P-lYNB800_V0">info@Codingking.com</a></p>
+            <p>Phone: +44 1234 567890</p>
+       
+     
+      </section>
+     
+      <p>Social: Facebook, Instagram and X
+                          
+     
+      </section>
+  </main>
+ 
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .tab-buttons {
+      display: flex;
+      border-bottom: 2px solid #2c6f4f;
+      margin-bottom: 20px;
+    }
+    .tab-buttons button {
+      background: none;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 1em;
+      color: #2c6f4f;
+      border-bottom: 3px solid transparent;
+      transition: border-color 0.3s;
+      outline: none;
+    }
+    .tab-buttons button.active {
+      border-color: #2c6f4f;
+      font-weight: bold;
+    }
+    .tab-content {
+      display: none;
+      background: white;
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    .tab-content.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Home</h1>
+
+  <div class="tab-buttons">
+    <button class="tab-btn active" data-tab="home">Home</button>
+    <button class="tab-btn" data-tab="about">About Us</button>
+    <button class="tab-btn" data-tab="contact">Contact</button>    
+<section>
+  </div>
+
+  <div id="home" class="tab-content active">
+    <h2>Home</h2>
+    <p>Welcome to codingking. Please use the searchbar at the bottom of the page to look up codes thankyou.</p>
+  </div>
+
+  <div id="about" class="tab-content">
+    <h2>About us</h2>
+    <p>We are codingking. We try and make it easier to learn coding better.</p>
+  </div>
+
+  <div id="contact" class="tab-content">
+    <h2>Contact us</h2>
+
+            <p>Email: <a href="goto:https://www.airbnb.co.uk/rooms/1281182138043509097?_set_bev_on_new_domain=1768125273_EAN2YwNTViMDBmZj&set_everest_cookie_on_new_domain=1768125273.EAMTE3YmY4ZDY3NTE2Mm.QHVvZbKS3M2aSK17jULvwAelQ9DXPdVWJezMKBHSin4&source_impression_id=p3_1768223517_P3S7P-lYNB800_V0">info@Codingking.com</a></p></li>
+      <li>Phone: +44 1234 567890</li>
+      <li>Social:Facebook, Instagram and X
+    </ul>
+  </div>
+
+  <script>
+    const slideElements = document.querySelectorAll('.slide-in');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, {
+  threshold: 0.1
+});
+
+slideElements.forEach(el => observer.observe(el));
+
+const text = "Welcome to Codingking!";
+const typingElement = document.querySelector('.typing-text');
+
+let index = 0;
+let typingSpeed = 100; // milliseconds per character
+let pauseBetweenLoops = 1500; // pause before restarting
+
+function type() {
+  if (index < text.length) {
+    typingElement.textContent += text.charAt(index);
+    index++;
+    setTimeout(type, typingSpeed);
+  } else {
+    // After typing complete, pause then clear and restart
+    setTimeout(() => {
+      typingElement.textContent = '';
+      index = 0;
+      type();
+    }, pauseBetweenLoops);
+  }
+}
+
+type();
+
+
+
+
+
+
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    tabButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const targetTab = button.getAttribute('data-tab');
+
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        tabContents.forEach(content => content.classList.remove('active'));
+
+        button.classList.add('active');
+        document.getElementById(targetTab).classList.add('active');
+      });
+    });
+  </script>
+
+<div class="search-bar">
+  <input type="text" placeholder="Search any codes..." aria-label="Search">
+  <button type="button">Go</button>
+</div>
+     
+      <a href="https://whatalifecelebrancy.co.uk" target="_blank" id="ad-banner-text">
+  Visit What a Life Celebrancy: Click here!
+</a>
+
+<div id="ad-container" class="closed" aria-label="Advertisement">
+  <a href="https://colytongrammar.com" target="_blank" rel="noopener noreferrer" id="ad-link">
+    <span id="ad-text"> Go to Colyton Grammar School: Click here!</span>
+    <span id="ad-arrow">→</span>
+  </a>
+  <div id="ad-closed-indicator" class="closed-indicator" aria-hidden="true">
+    <span>Ad</span>
+    <span>←</span>
+  </div>
+</div>
+    
+   <a 
+      </a>
+  </div>
+</div>
+      <div class="container">
+  <div class="content">
+    <h1>Welcome to mill cottage</h1>
+    <p>A charming 1-bedroom cottage nestled in the heart of the Devon countryside, perfect for a peaceful getaway close to the Jurassic Coast.
+    </p></p>
+  </div>
+  <aside class="ad">
+    <h2>Stay at Mill Cottage Airbnb</h2>
+    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-1281182138043509097/original/d98c76d8-3baa-4732-8832-b56f4667ed5e.jpeg?im_w=1200" alt="Mill Cottage Airbnb" />
+    <p>Experience comfort and nature in the heart of the countryside.</p>
+    <a href="https://www.airbnb.co.uk/rooms/1281182138043509097?_set_bev_on_new_domain=1768125273_EAN2YwNTViMDBmZj&set_everest_cookie_on_new_domain=1768125273.EAMTE3YmY4ZDY3NTE2Mm.QHVvZbKS3M2aSK17jULvwAelQ9DXPdVWJezMKBHSin4&source_impression_id=p3_1768223517_P3S7P-lYNB800_V0" target="_blank" rel="noopener">Book 
+ 
+      Now</a>
+  </aside>
+</div>
+      <footer>
+        &copy; 2025. Codingking All rights reserved.
+    <footer>
+      
+
+      
+      
